@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33027.239
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomImageWidgetProvider", "RandomImageWidgetProvider\RandomImageWidgetProvider.csproj", "{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WidgetHelper", "WidgetHelper\WidgetHelper.shproj", "{2F76105F-682C-4B53-B6E9-1403A6B6046E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|ARM64.Build.0 = Debug|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x64.ActiveCfg = Debug|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x64.Build.0 = Debug|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x64.Deploy.0 = Debug|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x86.ActiveCfg = Debug|x86
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x86.Build.0 = Debug|x86
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Debug|x86.Deploy.0 = Debug|x86
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|ARM64.ActiveCfg = Release|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|ARM64.Build.0 = Release|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|ARM64.Deploy.0 = Release|ARM64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x64.ActiveCfg = Release|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x64.Build.0 = Release|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x64.Deploy.0 = Release|x64
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x86.ActiveCfg = Release|x86
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x86.Build.0 = Release|x86
+		{F1BF9F34-96C1-415F-B1C0-BEA4E8B32808}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20CF7CCB-71E5-4795-A066-E05ECCE6EAE7}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WidgetHelper\WidgetHelper.projitems*{2f76105f-682c-4b53-b6e9-1403a6b6046e}*SharedItemsImports = 13
+		WidgetHelper\WidgetHelper.projitems*{f1bf9f34-96c1-415f-b1c0-bea4e8b32808}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
