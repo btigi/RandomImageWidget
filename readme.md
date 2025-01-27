@@ -1,6 +1,8 @@
 ## Introduction
 
-Random Image Widget
+Random Image Widget is a Windows Widget (built and tested against Windows 11 23H2) to display a random image (from a predefined list) on each activation of the  Widget area.
+
+![screenshot showing output](resources/screenshot.png)
 
 ## Download
 
