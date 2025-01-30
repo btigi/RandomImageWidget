@@ -4,6 +4,7 @@
 using Microsoft.Windows.Widgets.Providers;
 using System;
 using System.IO;
+using System.Linq;
 using System.Text.Json.Nodes;
 
 namespace RandomImageWidgetProvider
@@ -62,7 +63,8 @@ namespace RandomImageWidgetProvider
         {
             var filepath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "images.txt");
 
-            var lines = File.ReadAllLines(filepath);
+            var allLines = File.ReadAllLines(filepath);
+            var lines = allLines.Where(w => !w.StartsWith('#') && !string.IsNullOrWhiteSpace(w)).ToArray();
             var random = new Random();
             var randomIndex = random.Next(lines.Length);
             var randomEntry = lines[randomIndex];
